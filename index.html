@@ -15,10 +15,25 @@
         font-family: Arial, sans-serif;
         text-align: center;
         flex-direction: column;
+        padding: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        width: 200px; /* Adjust this value as needed */
       }
       h1 {
         color: #333;
         margin-top: 20px;
+        font-size: 1.5em;
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.2em;
+        }
+        img {
+          width: 150px; /* Adjust this value for smaller screens */
+        }
       }
     </style>
   </head>
